@@ -1,5 +1,6 @@
 ---@class Palette
 return {
+  -- dracula
   -- bg = "#282A36",
   -- fg = "#F8F8F2",
   -- selection = "#44475A",
@@ -73,23 +74,22 @@ return {
   orange = "#73c5ff",
   yellow = "#dafd89",
   green = "#01d6b6",
-  purple = "#cca5fe",
+  purple = "#d0adfe",
   cyan = "#9bdffc",
   pink = "#ed83e0",
   bright_red = "#ff3c7e",
   bright_green = "#01d6b6",
   bright_yellow = "#dafd89",
   bright_blue = "#73c5ff",
-  bright_magenta = "#fdcbf5",
+  bright_magenta = "#d0adfe",
   bright_cyan = "#9bdffc",
   bright_white = "#FFFFFF",
-  menu = "#271624",
+  menu = "#1b202a",
   visual = "#3E4452",
   gutter_fg = "#4B5263",
   nontext = "#3B4048",
   white = "#ABB2BF",
   black = "#1b202a",
-
 
 }
 
