@@ -1,6 +1,6 @@
-local dracula = require("dracula")
-local configs = dracula.configs()
-local colors = dracula.colors()
+local hydrangea = require("hydrangea")
+local configs = hydrangea.configs()
+local colors = hydrangea.colors()
 
 local bg = configs.lualine_bg_color or colors.black
 
