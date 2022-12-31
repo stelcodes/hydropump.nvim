@@ -1,6 +1,6 @@
-local hydrangea = require("hydrangea")
-local configs = hydrangea.configs()
-local colors = hydrangea.colors()
+local hydropump = require("hydropump")
+local configs = hydropump.configs()
+local colors = hydropump.colors()
 
 local bg = configs.lualine_bg_color or colors.black
 

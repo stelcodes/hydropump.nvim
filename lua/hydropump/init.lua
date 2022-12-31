@@ -16,7 +16,7 @@ local DEFAULT_CONFIG = {
    transparent_bg = false,
    show_end_of_buffer = false,
    lualine_bg_color = nil,
-   colors = require("hydrangea.palette"),
+   colors = require("hydropump.palette"),
    overrides = {},
 }
 
@@ -48,12 +48,12 @@ local function apply_term_colors(colors)
    g.terminal_color_foreground = colors.fg
 end
 
----apply hydrangea colorscheme
+---apply hydropump colorscheme
 ---@param configs DefaultConfig
 local function apply(configs)
    local colors = configs.colors
    apply_term_colors(colors)
-   local groups = require("hydrangea.groups").setup(configs)
+   local groups = require("hydropump.groups").setup(configs)
 
    -- apply transparents
    if configs.transparent_bg then
@@ -74,7 +74,7 @@ end
 
 local local_configs = DEFAULT_CONFIG
 
----setup hydrangea colorscheme
+---setup hydropump colorscheme
 ---@param configs DefaultConfig?
 local function setup(configs)
    if type(configs) == "table" then
@@ -82,10 +82,10 @@ local function setup(configs)
    end
 end
 
----load hydrangea colorscheme
+---load hydropump colorscheme
 local function load()
    if vim.version().minor < 7 then
-      vim.notify_once("hydrangea.nvim: you must use neovim 0.7 or higher")
+      vim.notify_once("hydropump.nvim: you must use neovim 0.7 or higher")
       return
    end
 
@@ -100,7 +100,7 @@ local function load()
 
    o.background = "dark"
    o.termguicolors = true
-   g.colors_name = "hydrangea"
+   g.colors_name = "hydropump"
 
    apply(local_configs)
 end
