@@ -66,30 +66,31 @@ return {
 
 
   -- THE REAL SHIT
-  bg = "#232833",
+  bg = "#1d212a",
   fg = "#F8F8F2", -- from dracula
   selection = "#44475A",
   comment = "#6272A4",
   red = "#f05c8e",
-  orange = "#82d8e8",
+  orange = "#9bdffc",
   yellow = "#dafd89",
+  dark_green = "#013435",
   green = "#18eece",
   purple = "#d0adfe",
   cyan = "#9bb9fc",
-  pink = "#ed83e0",
+  pink = "#ff9fd9",
   bright_red = "#ff3c7e",
   bright_green = "#01d6b6",
   bright_yellow = "#dafd89",
   bright_blue = "#73c5ff",
-  bright_magenta = "#d0adfe",
+  bright_magenta = "#dbbfff",
   bright_cyan = "#9bdffc",
-  bright_white = "#FFFFFF",
+  bright_white = "#F8F8F2",
   menu = "#1b202a",
   visual = "#3E4452",
   gutter_fg = "#4B5263",
   nontext = "#3B4048",
   white = "#ABB2BF",
-  black = "#1b202a",
+  black = "#111318",
 
 }
 
